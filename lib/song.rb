@@ -1,17 +1,16 @@
 class Songs
-  attr_accessor :songs,
+  attr_accessor :name
 
-  def initialize
-    @songs = []
-    @songs
+  def initialize(name)
+    @name = name 
   end
 
   def add_song(song)
     @songs = songs.each do |song|
       self.artist.name
   end
-end
+
 
   def add_song_by_name(song)
-
+  
   end
