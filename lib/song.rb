@@ -5,9 +5,8 @@ class Songs
     @name = name
   end
 
-  def add_song(song)
-    @songs = songs.each do |song|
-      @songs << self.artist.name
+  def artist_name
+    self.artist.name
   end
 
 
